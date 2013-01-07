@@ -1,0 +1,53 @@
+<posts count="6">
+ 	<post>
+ 		<id>1</id>
+ 		<title>First Tester</title>
+		<date>03/12/2012</date>
+ 		<content>Testing a potential android 'blog' feed reader.
+
+
+Test
+
+
+Test 123.</content>
+ 	</post>
+ 	<post>
+ 		<id>2</id>
+ 		<title>connor test</title>
+ 		<date>03/12/2012</date>
+ 		<content>juabjasbfajshfbasjfsaf
+asfasf
+asfasfsaf
+
+www.google.com
+
+
+
+
+asfasf</content>
+ 	</post>
+ 	<post>
+ 		<id>3</id>
+ 		<title>Blah</title>
+ 		<date>03/12/2012</date>
+ 		<content>Blah</content>
+ 	</post>
+ 	<post>
+ 		<id>4</id>
+ 		<title>Blah2</title>
+ 		<date>03/12/2012</date>
+ 		<content>Blah2</content>
+ 	</post>
+ 	<post>
+ 		<id>5</id>
+ 		<title>Blah3</title>
+ 		<date>03/12/2012</date>
+ 		<content>Blah3</content>
+ 	</post>
+ 	<post>
+ 		<id>6</id>
+ 		<title>Blah4</title>
+ 		<date>03/12/2012</date>
+ 		<content>Blah4</content>
+ 	</post>
+</posts>

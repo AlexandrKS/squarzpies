@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Dashboard!</string>
+    <string name="app_name">SquarzPies</string>
+
+    <string-array name="dailydeal">
+        <item>None</item>
+        <item>Groupon</item>
+        <item>Living Social</item>
+    </string-array>
+    
+    <string-array name="numPies">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <!-- SETTINGS FOR ACCESSING YOUR ACCOUNT -->
+    <string name="mc_api_key">8efa332a2da036e6bfc39ebf2bd5fdc9-us2</string>
+    <string name="mc_list_id">10f2899375</string>
+    
+    <string name="email">squarzpies.android@gmail.com</string>
+    <string name="password">squarz123</string>
+
+</resources>

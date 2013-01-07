@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:src="@drawable/logo" >
+    </ImageView>
+
+    <com.connyay.squarzpies.dashboard.DashboardLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/dashboard"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/findUs"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/find" />
+
+        <Button
+            android:id="@+id/menu"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/menu" />
+
+        <Button
+            android:id="@+id/news"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/news" />
+
+        <Button
+            android:id="@+id/about"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/about" />
+
+        <Button
+            android:id="@+id/newsLetter"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/newsletter" />
+
+        <Button
+            android:id="@+id/suggestion"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/comments" />
+    </com.connyay.squarzpies.dashboard.DashboardLayout>
+
+    <include
+        
+        layout="@layout/footer_layout"/>
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:src="@drawable/logo" >
+    </ImageView>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/app_background"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/aboutHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Origins"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/steven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="7dp"
+                android:text="Steven Gerner, the creator and co-owner of Squarz, lived in New Zealand as a child and South Africa as a Peace Corps Volunteer. While overseas, Steven fell in love with the classic British meat pie and decided to join the epic battle against bland and uninteresting food by starting Squarz, LLC. Steven modernizes and refines these flavors to reflect American culinary traditions. We hope you enjoy!"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/kristen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="7dp"
+                android:text="Kristen Ribich, the co-owner of Squarz, also lived in New Zealand as a child and loved the classic British meat pie. Among her many travels, Kristen was inspired by the variety of flavors and spices other cultures have to offer; you may see this inspiration in the Pie of the Month flavors! Kristen uses her experiences to offer you a taste of culture in just one square! Kristen&apos;s background is in humanitarian work, and works with Squarz, LLC to help the global community by donating a portion of the profits to those in need."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/contactHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/contactUs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="7dp"
+                android:text="Phone: 480.788.8776 \nEmail: info@SquarzPies.com"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:autoLink="phone|email" />
+            
+            
+                        <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/shopHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Visit Our Shop"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+            
+            <TextView
+                android:id="@+id/shop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="7dp"
+                android:text="4016 E Main Street \nMesa, AZ 85205"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:autoLink="map" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

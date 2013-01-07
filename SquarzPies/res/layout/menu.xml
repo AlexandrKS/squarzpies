@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:src="@drawable/logo" >
+    </ImageView>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/app_background"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/appleHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apple"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/appleCopy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Our take on the classic American pie! Flaky, golden pastry bursting with a sweet, warm, and gooey filling of slowly cooked apples and cinnamon."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/appleIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingBottom="10dp"
+                android:src="@drawable/apple" />
+
+            <include layout="@layout/pieprice_layout" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/bbqHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingRight="7dp"
+                android:paddingTop="5dp"
+                android:text="BBQ Pork"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/bbqCopy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:paddingRight="7dp"
+                android:text="A taste of down-home cooking with this mouth-watering pork in our sweet, tangy sauce. Marinated in a secret blend of spices for 24-hours and roasted until the pork falls of the bone."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/bbqIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingBottom="10dp"
+                android:paddingRight="7dp"
+                android:src="@drawable/bbq" />
+
+            <include layout="@layout/pieprice_layout" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/bfHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Breakfast"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/bfCopy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Wake up with an on-the-go breakfast! Full of plenty of protein to start your day, our breakfast pie is packed with deliciously seasoned eggs, gooey cheddar cheese, and perfectly cooked bacon!"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/bfIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingBottom="10dp"
+                android:src="@drawable/breakfast" />
+
+            <include layout="@layout/pieprice_layout" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/chixHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingRight="7dp"
+                android:paddingTop="5dp"
+                android:text="Chicken"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/chixCopy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:paddingRight="7dp"
+                android:text="The ultimate comfort food! Tender chicken breast with a delicious combination of carrots, peas, and creamy sauce tucked into a buttery, flaky, golden crust."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/chixIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingBottom="10dp"
+                android:paddingRight="7dp"
+                android:src="@drawable/chicken" />
+
+            <include layout="@layout/pieprice_layout" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/chixMushHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chicken and Mushroom"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/chixMushCopy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="A touch of gourmet with wonderful portions of juicy, tasty chicken breast and tender white mushrooms in a light, creamy thyme and rosemary sauce."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/chixMushIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingBottom="10dp"
+                android:src="@drawable/chixmush" />
+
+            <include layout="@layout/pieprice_layout" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/lentilHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingRight="7dp"
+                android:paddingTop="5dp"
+                android:text="Lentil Curry"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/lentilCopy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:paddingRight="7dp"
+                android:text="Our curry pie packs a flavorful kick with protein-rich lentils, hearty potatoes, delicious tomatoes, and an aromatic blend of spices! It’s certain to treat your taste buds and fill your tummy!"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/lentilIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingBottom="10dp"
+                android:paddingRight="7dp"
+                android:src="@drawable/lentil" />
+
+            <include layout="@layout/pieprice_layout" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/pepperoniHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pepperoni Pizza"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/pepperoniCopy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="We mix-up the classic pepperoni pizza with this tasty, flavorsome combination of real mozzarella, parmesan, and diced pepperoni in our delicious pizza sauce and wrapped in our signature crust."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/pepperoniIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingBottom="10dp"
+                android:src="@drawable/pepperoni" />
+
+            <include layout="@layout/pieprice_layout" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/spinachHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingRight="7dp"
+                android:paddingTop="5dp"
+                android:text="Spinach and Feta"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/spinachCopy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:paddingRight="7dp"
+                android:text="We hit on the classics with our delicious blend of the finest quality spinach, scrumptious feta cheese, and a dash of dill seasoning folded into our light, airy crust."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/spinachIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingBottom="10dp"
+                android:paddingRight="7dp"
+                android:src="@drawable/spinach" />
+
+            <include layout="@layout/pieprice_layout" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/shepHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shepherd&apos;s Pie"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/steakCopy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Scrumptious seasoned ground beef with mouthwatering garlic parmesan mashed potatoes, sweet corn, and tender carrots complete this heavenly experience!"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/shepIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:paddingBottom="10dp"
+                android:src="@drawable/shep" />
+
+            <include layout="@layout/pieprice_layout" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/potmHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingRight="7dp"
+                android:paddingTop="5dp"
+                android:text="Oops! Something went wrong..."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/potmCopy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:paddingRight="7dp"
+                android:text="Please check our website for the Pie of the Month."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/potmIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingBottom="10dp"
+                android:paddingRight="7dp" />
+
+            <include layout="@layout/pieprice_layout" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
